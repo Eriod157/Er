@@ -4,11 +4,12 @@ const fs = require('fs');
 const suck = JSON.parse(fs.readFileSync('./suck.json', 'utf8'));
 const prefix = "r#";
 // By M7MD
-client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag} !`);
-          client.user.setActivity("Rainbow , r#help",{type: 'WATCHING'});
+// playing
+client.on('ready', () => {                           
+client.user.setGame(``,https://www.twitch.tv/esseli00');                                                                                                                                                                                                                                                                                                                                                                                                                             client.user.setGame(`-help | On 20 Servers`,'https://www.twitch.tv/v5bz');
+});     
 
-  });
+});
 client.on("message", message => {
     fs.writeFile('./suck.json', JSON.stringify(suck));
 });
