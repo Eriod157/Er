@@ -6,7 +6,7 @@ const prefix = "r#";
 // By M7MD
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag} !`);
-          client.user.setActivity("Rainbow , r#help .",{type: 'WATCHING'});
+          client.user.setActivity("𝙈𝙤𝟑𝑮𝒛𝒁𝙖",{type: 'WATCHING'});
   
   });
 client.on("message", message => {
